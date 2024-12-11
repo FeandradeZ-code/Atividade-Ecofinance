@@ -1,0 +1,42 @@
+
+body {
+    font-family: "Open Sans", serif;
+    text-transform:inherit;
+    }
+
+h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+dl {
+    list-style: circle;
+}
+
+img {
+    width: 80%;
+    border-radius: 7px;
+    filter: opacity(50%)
+}
+
+img:hover {
+    filter: opacity(100%);   
+}
+
+div {
+    max-width: 500px;
+    max-height: 500px;
+    background-color:gray;
+    border-style:solid;
+    border-top: auto;
+    border-left: 10px;
+    border-color: crimson;
+    border-width: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
